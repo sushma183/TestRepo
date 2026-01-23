@@ -15,7 +15,7 @@ pipeline {
         sh '''
         a=1
         b=3
-        echo 'Addition of \$a and \$b is \$((a+b))'
+        echo "Addition of \$a and \$b is \$((a+b))"
         '''
       }
     }

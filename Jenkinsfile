@@ -19,7 +19,7 @@ pipeline {
         '''
       }
     }
-    stage('Addition') {
+    stage('Addition calling python file') {
       steps {
         sh '''
         python3 add.py
